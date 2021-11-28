@@ -1,0 +1,107 @@
+body{
+	background-image: url("img/tlo.jpg");
+}
+
+.container{
+	margin-top: 200px;
+}
+
+.navbar-nav li:hover>.dropdown-menu{
+	
+	display: block;
+}
+
+
+
+.row{
+	height: 300px;
+	
+}
+
+.pasekBoczny{
+	float: left;
+	width: 100px;
+	height: 100px;
+	
+}
+
+.daneUzytkownika{
+	float: left;
+	width:500px;
+	color: white;
+}
+
+input[type=submit]{
+	width: 300px;
+	background-color: #3333CC;
+	font-size: 20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+}
+
+input[type=submit]:focus{
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(16, 20, 150, 1);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(16, 20, 150, 1);
+	box-shadow: 0px 0px 10px 1px rgba(16, 20, 150, 1);
+}
+
+
+input[type=submit]:hover{
+	background-color: #000066;
+}
+
+.pojemniczki{
+	padding: 10px;
+	float: left;
+	background-color: white;
+	width: 233px;
+	height: 233px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.pojemniczki:hover{
+	background-color: #3300FF;
+	color: white;
+}
+
+
+
+.wylogujUzytkownika{
+	
+	color: white;
+	
+}
+
+a.wylogujUzytkownika:focus{
+	color: black;
+	
+}
+
+a.wylogujUzytkownika{
+	color:black;
+	
+}
+
+a.wylogujUzytkownika:hover{
+	color:black;
+}
+
+.panelUzytkownika{
+	background-color: black;
+	width: 300px;
+	height: 100px;
+}
+
+#daneKontaktowe{
+	color: white;
+	background-color: white;
+}
+
